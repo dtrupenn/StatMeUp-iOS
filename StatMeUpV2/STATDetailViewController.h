@@ -8,9 +8,17 @@
 
 #import <UIKit/UIKit.h>
 
-@interface STATDetailViewController : UIViewController <UISplitViewControllerDelegate>
+@class HealthType;
 
-@property (strong, nonatomic) id detailItem;
+@interface STATDetailViewController : UIViewController
 
-@property (weak, nonatomic) IBOutlet UILabel *detailDescriptionLabel;
+@property (strong, nonatomic) HealthType *health;
+
+@property (weak, nonatomic) IBOutlet UILabel *nameLabel;
+@property (weak, nonatomic) IBOutlet UILabel *dateLabel;
+@property (weak, nonatomic) IBOutlet UILabel *avgLabel;
+@property (weak, nonatomic) IBOutlet UILabel *mdnLabel;
+@property (weak, nonatomic) IBOutlet UILabel *maxLabel;
+@property (weak, nonatomic) IBOutlet UILabel *minLabel;
+
 @end
