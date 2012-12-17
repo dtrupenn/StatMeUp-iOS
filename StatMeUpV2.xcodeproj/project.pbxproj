@@ -1,0 +1,341 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		37E73C90167F14B200FC4319 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37E73C8F167F14B200FC4319 /* UIKit.framework */; };
+		37E73C92167F14B200FC4319 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37E73C91167F14B200FC4319 /* Foundation.framework */; };
+		37E73C94167F14B200FC4319 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37E73C93167F14B200FC4319 /* CoreGraphics.framework */; };
+		37E73C96167F14B200FC4319 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37E73C95167F14B200FC4319 /* CoreData.framework */; };
+		37E73C9C167F14B300FC4319 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 37E73C9A167F14B300FC4319 /* InfoPlist.strings */; };
+		37E73C9E167F14B400FC4319 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 37E73C9D167F14B400FC4319 /* main.m */; };
+		37E73CA2167F14B500FC4319 /* STATAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 37E73CA1167F14B500FC4319 /* STATAppDelegate.m */; };
+		37E73CA4167F14B500FC4319 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 37E73CA3167F14B500FC4319 /* Default.png */; };
+		37E73CA6167F14B500FC4319 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 37E73CA5167F14B500FC4319 /* Default@2x.png */; };
+		37E73CA8167F14B500FC4319 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 37E73CA7167F14B500FC4319 /* Default-568h@2x.png */; };
+		37E73CAB167F14B500FC4319 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37E73CA9167F14B500FC4319 /* MainStoryboard_iPhone.storyboard */; };
+		37E73CAE167F14B500FC4319 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37E73CAC167F14B500FC4319 /* MainStoryboard_iPad.storyboard */; };
+		37E73CB1167F14B800FC4319 /* StatMeUpV2.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 37E73CAF167F14B700FC4319 /* StatMeUpV2.xcdatamodeld */; };
+		37E73CB4167F14B900FC4319 /* STATMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 37E73CB3167F14B900FC4319 /* STATMasterViewController.m */; };
+		37E73CB7167F14BA00FC4319 /* STATDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 37E73CB6167F14BA00FC4319 /* STATDetailViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		37E73C8B167F14B200FC4319 /* StatMeUpV2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StatMeUpV2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		37E73C8F167F14B200FC4319 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		37E73C91167F14B200FC4319 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		37E73C93167F14B200FC4319 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		37E73C95167F14B200FC4319 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		37E73C99167F14B300FC4319 /* StatMeUpV2-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "StatMeUpV2-Info.plist"; sourceTree = "<group>"; };
+		37E73C9B167F14B300FC4319 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		37E73C9D167F14B400FC4319 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		37E73C9F167F14B400FC4319 /* StatMeUpV2-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "StatMeUpV2-Prefix.pch"; sourceTree = "<group>"; };
+		37E73CA0167F14B500FC4319 /* STATAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = STATAppDelegate.h; sourceTree = "<group>"; };
+		37E73CA1167F14B500FC4319 /* STATAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = STATAppDelegate.m; sourceTree = "<group>"; };
+		37E73CA3167F14B500FC4319 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		37E73CA5167F14B500FC4319 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		37E73CA7167F14B500FC4319 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		37E73CAA167F14B500FC4319 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		37E73CAD167F14B500FC4319 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		37E73CB0167F14B800FC4319 /* StatMeUpV2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = StatMeUpV2.xcdatamodel; sourceTree = "<group>"; };
+		37E73CB2167F14B800FC4319 /* STATMasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = STATMasterViewController.h; sourceTree = "<group>"; };
+		37E73CB3167F14B900FC4319 /* STATMasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = STATMasterViewController.m; sourceTree = "<group>"; };
+		37E73CB5167F14BA00FC4319 /* STATDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = STATDetailViewController.h; sourceTree = "<group>"; };
+		37E73CB6167F14BA00FC4319 /* STATDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = STATDetailViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		37E73C88167F14B100FC4319 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37E73C90167F14B200FC4319 /* UIKit.framework in Frameworks */,
+				37E73C92167F14B200FC4319 /* Foundation.framework in Frameworks */,
+				37E73C94167F14B200FC4319 /* CoreGraphics.framework in Frameworks */,
+				37E73C96167F14B200FC4319 /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		37E73C80167F14AF00FC4319 = {
+			isa = PBXGroup;
+			children = (
+				37E73C97167F14B200FC4319 /* StatMeUpV2 */,
+				37E73C8E167F14B200FC4319 /* Frameworks */,
+				37E73C8C167F14B200FC4319 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		37E73C8C167F14B200FC4319 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				37E73C8B167F14B200FC4319 /* StatMeUpV2.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		37E73C8E167F14B200FC4319 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				37E73C8F167F14B200FC4319 /* UIKit.framework */,
+				37E73C91167F14B200FC4319 /* Foundation.framework */,
+				37E73C93167F14B200FC4319 /* CoreGraphics.framework */,
+				37E73C95167F14B200FC4319 /* CoreData.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		37E73C97167F14B200FC4319 /* StatMeUpV2 */ = {
+			isa = PBXGroup;
+			children = (
+				37E73CA0167F14B500FC4319 /* STATAppDelegate.h */,
+				37E73CA1167F14B500FC4319 /* STATAppDelegate.m */,
+				37E73CA9167F14B500FC4319 /* MainStoryboard_iPhone.storyboard */,
+				37E73CAC167F14B500FC4319 /* MainStoryboard_iPad.storyboard */,
+				37E73CB2167F14B800FC4319 /* STATMasterViewController.h */,
+				37E73CB3167F14B900FC4319 /* STATMasterViewController.m */,
+				37E73CB5167F14BA00FC4319 /* STATDetailViewController.h */,
+				37E73CB6167F14BA00FC4319 /* STATDetailViewController.m */,
+				37E73CAF167F14B700FC4319 /* StatMeUpV2.xcdatamodeld */,
+				37E73C98167F14B300FC4319 /* Supporting Files */,
+			);
+			path = StatMeUpV2;
+			sourceTree = "<group>";
+		};
+		37E73C98167F14B300FC4319 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				37E73C99167F14B300FC4319 /* StatMeUpV2-Info.plist */,
+				37E73C9A167F14B300FC4319 /* InfoPlist.strings */,
+				37E73C9D167F14B400FC4319 /* main.m */,
+				37E73C9F167F14B400FC4319 /* StatMeUpV2-Prefix.pch */,
+				37E73CA3167F14B500FC4319 /* Default.png */,
+				37E73CA5167F14B500FC4319 /* Default@2x.png */,
+				37E73CA7167F14B500FC4319 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		37E73C8A167F14B100FC4319 /* StatMeUpV2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 37E73CBA167F14BA00FC4319 /* Build configuration list for PBXNativeTarget "StatMeUpV2" */;
+			buildPhases = (
+				37E73C87167F14B100FC4319 /* Sources */,
+				37E73C88167F14B100FC4319 /* Frameworks */,
+				37E73C89167F14B100FC4319 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StatMeUpV2;
+			productName = StatMeUpV2;
+			productReference = 37E73C8B167F14B200FC4319 /* StatMeUpV2.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		37E73C82167F14AF00FC4319 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = STAT;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Dan Trujillo";
+			};
+			buildConfigurationList = 37E73C85167F14AF00FC4319 /* Build configuration list for PBXProject "StatMeUpV2" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 37E73C80167F14AF00FC4319;
+			productRefGroup = 37E73C8C167F14B200FC4319 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				37E73C8A167F14B100FC4319 /* StatMeUpV2 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		37E73C89167F14B100FC4319 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37E73C9C167F14B300FC4319 /* InfoPlist.strings in Resources */,
+				37E73CA4167F14B500FC4319 /* Default.png in Resources */,
+				37E73CA6167F14B500FC4319 /* Default@2x.png in Resources */,
+				37E73CA8167F14B500FC4319 /* Default-568h@2x.png in Resources */,
+				37E73CAB167F14B500FC4319 /* MainStoryboard_iPhone.storyboard in Resources */,
+				37E73CAE167F14B500FC4319 /* MainStoryboard_iPad.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		37E73C87167F14B100FC4319 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37E73C9E167F14B400FC4319 /* main.m in Sources */,
+				37E73CA2167F14B500FC4319 /* STATAppDelegate.m in Sources */,
+				37E73CB1167F14B800FC4319 /* StatMeUpV2.xcdatamodeld in Sources */,
+				37E73CB4167F14B900FC4319 /* STATMasterViewController.m in Sources */,
+				37E73CB7167F14BA00FC4319 /* STATDetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		37E73C9A167F14B300FC4319 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				37E73C9B167F14B300FC4319 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		37E73CA9167F14B500FC4319 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				37E73CAA167F14B500FC4319 /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		37E73CAC167F14B500FC4319 /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				37E73CAD167F14B500FC4319 /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		37E73CB8167F14BA00FC4319 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		37E73CB9167F14BA00FC4319 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		37E73CBB167F14BA00FC4319 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "StatMeUpV2/StatMeUpV2-Prefix.pch";
+				INFOPLIST_FILE = "StatMeUpV2/StatMeUpV2-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		37E73CBC167F14BA00FC4319 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "StatMeUpV2/StatMeUpV2-Prefix.pch";
+				INFOPLIST_FILE = "StatMeUpV2/StatMeUpV2-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		37E73C85167F14AF00FC4319 /* Build configuration list for PBXProject "StatMeUpV2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37E73CB8167F14BA00FC4319 /* Debug */,
+				37E73CB9167F14BA00FC4319 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		37E73CBA167F14BA00FC4319 /* Build configuration list for PBXNativeTarget "StatMeUpV2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37E73CBB167F14BA00FC4319 /* Debug */,
+				37E73CBC167F14BA00FC4319 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		37E73CAF167F14B700FC4319 /* StatMeUpV2.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				37E73CB0167F14B800FC4319 /* StatMeUpV2.xcdatamodel */,
+			);
+			currentVersion = 37E73CB0167F14B800FC4319 /* StatMeUpV2.xcdatamodel */;
+			path = StatMeUpV2.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 37E73C82167F14AF00FC4319 /* Project object */;
+}
